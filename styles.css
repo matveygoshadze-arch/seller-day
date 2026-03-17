@@ -168,6 +168,7 @@ body {
     left: -50%;
     width: 200%;
     height: 200%;
+    pointer-events: none;
     background: radial-gradient(ellipse at 30% 20%, rgba(212, 222, 56, 0.15) 0%, transparent 50%),
         radial-gradient(ellipse at 70% 80%, rgba(212, 222, 56, 0.08) 0%, transparent 50%);
 }
