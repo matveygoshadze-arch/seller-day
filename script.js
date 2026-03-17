@@ -50,20 +50,4 @@ navbarLinks.querySelectorAll('a').forEach(link => {
         burger.classList.remove('active');
         navbarLinks.classList.remove('active');
     });
-});}
-
-// Бургер меню
-const burger = document.getElementById('navbar-burger');
-const navbarLinks = document.getElementById('navbar-links');
-
-burger.addEventListener('click', function () {
-    burger.classList.toggle('active');
-    navbarLinks.classList.toggle('active');
-});
-
-navbarLinks.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', function () {
-        burger.classList.remove('active');
-        navbarLinks.classList.remove('active');
-    });
 });
